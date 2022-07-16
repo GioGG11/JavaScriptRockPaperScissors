@@ -22,12 +22,12 @@ p{
   align-items: center;
 }
 .img-cont img:hover {
-    transform: scale(1.1);
+    transform: skewX(15deg);
     z-index: 2;
     transition-duration: 100ms;
 }
 .img-cont img:not(:hover){
-    opacity: 0.4;
+    
     z-index: 1;
 }
 
